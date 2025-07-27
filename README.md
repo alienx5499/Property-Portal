@@ -178,7 +178,7 @@ Property Portal/
 │     │        ├─ DatabaseConnection.java
 │     │        └─ Main.java
 │     └─ resources/
-│        ├─ database.properties # Database configuration (create this file)
+│        ├─ database.properties # Database configuration (update with your credentials)
 │        ├─ logback.xml        # Logging configuration
 │        └─ PropertyPortal.sql # Database schema
 └─ target/                    # Compiled classes and JAR
@@ -193,7 +193,7 @@ Property Portal/
 - **`src/main/resources/`**: Configuration files and database schema
 - **`PropertyPortal.sql`**: Complete database schema with tables, relationships, and indexes
 - **`Main.java`**: Application entry point for database initialization
-- **`database.properties`**: Database configuration file (create this file with your credentials)
+- **`database.properties`**: Database configuration file (update with your credentials)
 
 ---
 
@@ -211,7 +211,7 @@ Property Portal/
    ```
 
 3. **Configure Database**
-   - Create `src/main/resources/database.properties` file with your MySQL credentials
+   - Set environment variables for database credentials (optional)
    - Ensure MySQL server is running
 
 4. **Build and Run**
@@ -242,23 +242,13 @@ Property Portal/
 
 2. **Configure Database Connection**
    ```bash
-   # Create database.properties file
-   touch src/main/resources/database.properties
+   # Edit the database.properties file with your MySQL credentials
    nano src/main/resources/database.properties
    ```
    
-   Add the following content with your MySQL credentials:
+   Update the following values:
    ```properties
-   # Database Configuration for Property Portal
-   # Update these values according to your MySQL setup
-   
-   # Database URL
-   db.url=jdbc:mysql://localhost:3306/propertyPortal?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
-   
-   # Database Username
    db.username=your_username
-   
-   # Database Password
    db.password=your_password
    ```
 

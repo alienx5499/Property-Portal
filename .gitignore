@@ -65,7 +65,7 @@ application.properties
 application.yml
 application.yaml
 
-# Database configuration (contains sensitive credentials)
+# Database configuration (legacy file, now using environment variables)
 database.properties
 
 # MySQL dump files

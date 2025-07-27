@@ -1,14 +1,12 @@
 package com.propertyportal;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Properties;
 import java.io.InputStream;
 import java.io.IOException;
 
 /**
- * Database connection utility class for Property Portal
+ * Database connection management class
  */
 public class DatabaseConnection {
     private static final String CONFIG_FILE = "database.properties";
@@ -50,8 +48,6 @@ public class DatabaseConnection {
     
     /**
      * Get database connection
-     * @return Connection object
-     * @throws SQLException if connection fails
      */
     public static Connection getConnection() throws SQLException {
         try {
@@ -66,7 +62,6 @@ public class DatabaseConnection {
     
     /**
      * Close database connection
-     * @param connection Connection to close
      */
     public static void closeConnection(Connection connection) {
         if (connection != null) {
@@ -80,7 +75,6 @@ public class DatabaseConnection {
     
     /**
      * Test database connection and create database if needed
-     * @return true if connection successful, false otherwise
      */
     public static boolean testConnection() {
         // First try to connect to MySQL server without specifying database
@@ -99,7 +93,6 @@ public class DatabaseConnection {
     
     /**
      * Initialize database schema
-     * @return true if schema creation successful, false otherwise
      */
     public static boolean initializeSchema() {
         try (Connection connection = getConnection()) {
@@ -107,15 +100,26 @@ public class DatabaseConnection {
             String schemaSQL = readSchemaFile();
             if (schemaSQL != null) {
                 String[] statements = schemaSQL.split(";");
-                for (String statement : statements) {
-                    statement = statement.trim();
-                    if (!statement.isEmpty()) {
-                        try (var stmt = connection.createStatement()) {
-                            stmt.execute(statement);
+                try (Statement stmt = connection.createStatement()) {
+                    for (String statement : statements) {
+                        statement = statement.trim();
+                        if (!statement.isEmpty()) {
+                            try {
+                                stmt.execute(statement);
+                            } catch (SQLException e) {
+                                // Ignore errors for DROP, CREATE, and INDEX statements (objects might already exist)
+                                if (!statement.toLowerCase().contains("drop") && 
+                                    !statement.toLowerCase().contains("create table") && 
+                                    !statement.toLowerCase().contains("create index")) {
+                                    System.err.println("Error executing statement: " + e.getMessage());
+                                    throw e;
+                                }
+                            }
                         }
                     }
                 }
                 connection.commit();
+                System.out.println("Database schema initialized successfully");
                 return true;
             }
         } catch (SQLException e) {
@@ -126,7 +130,6 @@ public class DatabaseConnection {
     
     /**
      * Read schema file from resources
-     * @return SQL schema content
      */
     private static String readSchemaFile() {
         try (InputStream input = DatabaseConnection.class.getClassLoader().getResourceAsStream("PropertyPortal.sql")) {
