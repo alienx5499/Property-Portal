@@ -3,19 +3,19 @@
 # 🏠 **Property Portal** 🏠  
 ### *Real Estate Management System*
 
-[![Build Passing](https://img.shields.io/badge/build-passing-success?style=flat-square)](https://github.com/alienx5499/property-portal/actions)
+[![Build Passing](https://img.shields.io/badge/build-passing-success?style=flat-square)](https://github.com/alienx5499/property-Portal/actions)
 [![Java](https://img.shields.io/badge/Java-11-green?style=flat-square)](https://www.oracle.com/java/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?style=flat-square)](https://www.mysql.com/)
 [![Maven](https://img.shields.io/badge/Maven-3.8+-orange?style=flat-square)](https://maven.apache.org/)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/alienx5499/property-portal/blob/main/CONTRIBUTING.md)
-[![License: MIT](https://custom-icon-badges.herokuapp.com/github/license/alienx5499/property-portal?logo=law&logoColor=white)](https://github.com/alienx5499/property-portal/blob/main/LICENSE)
-[![Views](https://visitor-badge.laobi.icu/badge?page_id=alienx5499.property-portal)](https://visitor-badge.laobi.icu/badge?page_id=alienx5499.property-portal)
-[![⭐ GitHub stars](https://img.shields.io/github/stars/alienx5499/property-portal?style=social)](https://github.com/alienx5499/property-portal/stargazers)
-[![🍴 GitHub forks](https://img.shields.io/github/forks/alienx5499/property-portal?style=social)](https://github.com/alienx5499/property-portal/network)
-[![Commits](https://badgen.net/github/commits/alienx5499/property-portal)](https://github.com/alienx5499/property-portal/commits/main)
-[![🐛 GitHub issues](https://img.shields.io/github/issues/alienx5499/property-portal)](https://github.com/alienx5499/property-portal/issues)
-[![📂 GitHub pull requests](https://img.shields.io/github/issues-pr/alienx5499/property-portal)](https://github.com/alienx5499/property-portal/pulls)
-[![💾 GitHub code size](https://img.shields.io/github/languages/code-size/alienx5499/property-portal)](https://github.com/alienx5499/property-portal)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/alienx5499/property-Portal/blob/main/CONTRIBUTING.md)
+[![License: MIT](https://custom-icon-badges.herokuapp.com/github/license/alienx5499/property-Portal?logo=law&logoColor=white)](https://github.com/alienx5499/property-Portal/blob/main/LICENSE)
+[![Views](https://visitor-badge.laobi.icu/badge?page_id=alienx5499.property-Portal)](https://visitor-badge.laobi.icu/badge?page_id=alienx5499.property-Portal)
+[![⭐ GitHub stars](https://img.shields.io/github/stars/alienx5499/property-Portal?style=social)](https://github.com/alienx5499/property-Portal/stargazers)
+[![🍴 GitHub forks](https://img.shields.io/github/forks/alienx5499/property-Portal?style=social)](https://github.com/alienx5499/property-Portal/network)
+[![Commits](https://badgen.net/github/commits/alienx5499/property-Portal)](https://github.com/alienx5499/property-Portal/commits/main)
+[![🐛 GitHub issues](https://img.shields.io/github/issues/alienx5499/property-Portal)](https://github.com/alienx5499/property-Portal/issues)
+[![📂 GitHub pull requests](https://img.shields.io/github/issues-pr/alienx5499/property-Portal)](https://github.com/alienx5499/property-Portal/pulls)
+[![💾 GitHub code size](https://img.shields.io/github/languages/code-size/alienx5499/property-Portal)](https://github.com/alienx5499/property-Portal)
 
 </div>
 
