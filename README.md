@@ -44,7 +44,7 @@ Property Portal is a comprehensive real estate management system built with Java
 **Made property management easier for you? You're exactly who we built this for!** ✨  
 *Help other real estate professionals discover what you just experienced* 💝
 
-<a href="https://github.com/alienx5499/property-portal">
+<a href="https://github.com/alienx5499/property-Portal">
   <img src="https://img.shields.io/badge/⭐%20Star%20this%20repo-Be%20part%20of%20our%20community!-yellow?style=for-the-badge&logo=github" alt="Star this repo" />
 </a>
 
@@ -52,13 +52,7 @@ Property Portal is a comprehensive real estate management system built with Java
   <img src="https://img.shields.io/badge/🐦%20Share%20the%20love-Help%20a%20fellow%20developer!-1DA1F2?style=for-the-badge&logo=twitter" alt="Tweet about Property Portal" />
 </a>
 
-<a href="https://property-portal.vercel.app/">
-  <img src="https://img.shields.io/badge/🎮%20Experience%20the%20Magic-Try%20it%20NOW!-brightgreen?style=for-the-badge&logo=vercel" alt="Try Property Portal Live" />
-</a>
 
-<a href="https://property-portal.vercel.app/contributions">
-  <img src="https://img.shields.io/badge/🌟%20Meet%20Our%20Heroes-View%20Contributors-purple?style=for-the-badge&logo=github" alt="View Contributors" />
-</a>
 
 **💭 "Every star motivates us to add more property management features!" - The Property Portal Team**
 
@@ -347,8 +341,8 @@ We ❤️ open source! Your contributions make this project better.
 <div align="center">
 	<h3>Thank you for contributing to our repository</h3><br>
 	<p align="center">
-		<a href="https://github.com/alienx5499/property-portal/contributors">
-			<img src="https://contrib.rocks/image?repo=alienx5499/property-portal" width="720" height="380" />
+		<a href="https://github.com/alienx5499/property-Portal/contributors">
+			<img src="https://contrib.rocks/image?repo=alienx5499/property-Portal" width="720" height="380" />
 		</a>
 	</p>
 </div>
@@ -364,7 +358,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
 
 ### 📬 **Feedback & Suggestions**
-*We value your input! Share your thoughts through [GitHub Issues](https://github.com/alienx5499/property-portal/issues).*
+*We value your input! Share your thoughts through [GitHub Issues](https://github.com/alienx5499/property-Portal/issues).*
 
 💡 *Let's work together to enhance the understanding of property management systems!*
 
